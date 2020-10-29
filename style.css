@@ -1,0 +1,97 @@
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: roboto, arial, sans-serif;
+}
+
+.dark {
+  background-color: #333;
+}
+.light {
+  background-color: #ddd;
+}
+
+table {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid black;
+}
+@media (max-width: 768px) {
+  table {
+    width: 90vw;
+    height: 90vw;
+  }
+}
+
+@media (min-width: 768px) {
+  table {
+    width: 450px;
+    height: 450px;
+  }
+}
+
+@media (min-width: 1366px) {
+  table {
+    width: 550px;
+    height: 550px;
+  }
+}
+
+@media (min-width: 1680px) {
+  table {
+    width: 650px;
+    height: 650px;
+  }
+}
+@media (min-width: 1920px) {
+  table {
+    width: 800px;
+    height: 800px;
+  }
+}
+
+td:hover {
+  background-color: yellow;
+}
+
+.chosed {
+  background-color: red;
+}
+
+.kon {
+  background-image: url(./img/kon.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.hetman {
+  background-image: url(./img/hetman.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.krol {
+  background-image: url(./img/krol.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.pion {
+  background-image: url(./img/pion.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.wieza {
+  background-image: url(./img/wieza.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.goniec {
+  background-image: url(./img/goniec.png);
+  background-size: cover;
+  background-position: center;
+}
