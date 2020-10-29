@@ -34,6 +34,10 @@ table {
     width: 450px;
     height: 450px;
   }
+  td:hover {
+  background-color: yellow;
+}
+
 }
 
 @media (min-width: 1366px) {
@@ -54,10 +58,6 @@ table {
     width: 800px;
     height: 800px;
   }
-}
-
-td:hover {
-  background-color: yellow;
 }
 
 .chosed {
